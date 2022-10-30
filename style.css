@@ -138,10 +138,11 @@ input,button{
 }
 
 /* Edit Task */
+#completed-tasks .item .input,
 #incompleted-tasks .item .input {
   display: none;
 }
-
+#completed-tasks .item.edit-mode .task.input,
 #incompleted-tasks .item.edit-mode .task.input {
   display: inline-block;
   width: 224px;
